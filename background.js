@@ -29,7 +29,7 @@ const getActiveUrl = (tabid, changeInfo, tab) => {
     // the url address you need
     // if (tab.url.match("uniqlo.com")) {
     if (masterPattern.test(tab.url)) {
-        alert("Stop Right There!")
+        console.log("Stop Right There!")
     }
   }
   

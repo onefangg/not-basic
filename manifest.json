@@ -2,15 +2,44 @@
     "name": "I'm Not Basic",
     "description": "Reject basic clothings, accept an artificially inflated sense of self",
     "version": "1.0",
-    "manifest_version": 3,
+    "manifest_version": 2,
+    "content_scripts": [
+
+        {
+            "matches": [
+                "*://uniqlo.com/*",
+                "*://zara.com/*",
+                "*://lovebonito.com/*",
+                "*://theeditorsmarket.com/*",
+                "*://theclosetlover.com/*",
+                "*://thetinselrack.com/*",
+                "*://lzzie.com/*",
+                "*://fayth.com/*",
+                "*://loveandbravery.com/*",
+                "*://ohvola.com/*",
+                "*://fromthereon.com/*",
+                "*://thestagewalk.com/*",
+                "*://hervelvetvaset.com/*",
+                "*://neonmello.com/*",
+                "*://hollyhoque.com/*",
+                "*://younghungryfree.com/*",
+                "*://vshopsassydream.com/*",
+                "*://modparade.com/*",
+                "*://anticlockwise.com/*",
+                "*://forever21.sg/*",
+                "*://charleskeith.com/*",
+                "*://shopfashmob.com/*",
+                "*://sg.shein.com/*"
+            ],
+            "js": ["replacer.js"],
+            "css": ["styles.css"]
+        }
+    ],
     "background": {
-        "service_worker":"background.js"
+        "scripts": ["background.js"]
     },
     "permissions": [
         "tabs",
         "storage"
-    ],
-    "action": {
-        "default_popup": "popup5.html"
-    }
+    ]
   }

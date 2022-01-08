@@ -4,7 +4,9 @@
 
 A Chrome extension for all our fellow basic girlies who need to be discouraged from buying basic clothes. Resist that stereotype that all Singapore girls dress the same!
 
-_to caitlin: insert gif demo_
+The price of items flash rainbow in an annoying fashion, with the intention to make shopping on such basic clothing sites more annoying.
+![](demo1.gif)
+![](demo2.gif)
 
 ## Usage
 
